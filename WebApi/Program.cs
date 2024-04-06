@@ -1,5 +1,7 @@
 using Domain.Models;
+using Persistence.Context;
 using WebApi.Auth;
+
 
 namespace WebApi
 {
