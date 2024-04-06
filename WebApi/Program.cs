@@ -1,3 +1,4 @@
+using Domain.Models;
 using WebApi.Auth;
 
 namespace WebApi
@@ -15,7 +16,7 @@ namespace WebApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddSingleton<IDapperContext, DapperContext>();
-            builder.Services.AddSingleton<IUser>(new LoggedUser(1, "admin", "admin"));
+            builder.Services.AddSingleton<IUser>(provider => new LoggedUser(1, "admin", "admin@example.com", UserRole.Administrator));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
