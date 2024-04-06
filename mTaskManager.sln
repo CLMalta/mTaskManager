@@ -8,6 +8,7 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{BCA4A1ED-DAB6-4CC9-9EAF-D20EB15BE128}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{4C024F6A-9209-4CEE-BC6E-9115D6E71F71}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{9219DA22-DCD2-48E2-A80C-A3EB1FBBC27E}"
 EndProject
 Global
